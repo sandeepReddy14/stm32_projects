@@ -1,0 +1,19 @@
+/*
+ * user_main.c
+ *
+ *  Created on: Apr 20, 2025
+ *      Author: sandeep
+ */
+
+
+int main(void)
+{
+
+	RCC_OscInitTypedef osc_init;
+
+	HAL_Init();
+
+	while(1);
+
+	return 0;
+}

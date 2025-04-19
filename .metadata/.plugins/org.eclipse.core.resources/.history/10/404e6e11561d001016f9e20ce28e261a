@@ -1,0 +1,27 @@
+/*
+ * user_main.c
+ *
+ *  Created on: Apr 20, 2025
+ *      Author: sandeep
+ */
+
+
+int main(void)
+{
+
+	RCC_OscInitTypeDef osc_init;
+	RCC_ClkInitTypeDef clk_init;
+
+
+	HAL_Init();
+
+
+	/* Oscillator initialization */
+	osc_init.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+	osc_init.HSEState = RCC_HSE_BYPASS;
+	osc_init.
+
+	while(1);
+
+	return 0;
+}
