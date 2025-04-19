@@ -1,0 +1,10 @@
+14:51:54 **** Incremental Build of configuration Debug for project stm32_hal_uart ****
+make -j7 all 
+arm-none-eabi-size  stm32_hal_uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9188	     28	   1644	  10860	   2a6c	stm32_hal_uart.elf
+Finished building: default.size.stdout
+ 
+
+14:51:54 Build Finished. 0 errors, 0 warnings. (took 289ms)
+
