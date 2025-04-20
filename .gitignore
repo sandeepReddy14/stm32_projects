@@ -1,0 +1,13 @@
+# STM32CubeIDE workspace metadata
+.metadata/
+
+# Compiler and build artifacts
+*.o
+*.d
+
+# macOS-specific files
+.DS_Store
+
+# Miscellaneous
+*.log
+*.bak
