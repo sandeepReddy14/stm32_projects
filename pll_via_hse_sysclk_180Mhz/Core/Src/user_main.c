@@ -187,6 +187,14 @@ static void SystemClockConfigPllHSE(uint8_t clock_freq)
 		break;
 		case SYS_CLOCK_FREQ_180_MHZ:
 		{
+			/* Enable clock for the power controller */
+			__HAL_RCC_PWR_CLK_ENABLE();
+			/* Set regulator voltage scale as 1*/
+			__HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+			/* Turn on the power drive mode of the voltage regulator */
+			__HAL_PWR_OVERDRIVE_ENABLE();
+
+
 			osc_init.PLL.PLLM = 8;
 			osc_init.PLL.PLLN = 360;
 			osc_init.PLL.PLLP = RCC_PLLP_DIV2;
