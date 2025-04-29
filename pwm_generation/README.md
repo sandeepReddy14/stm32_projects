@@ -1,0 +1,1 @@
+generate PWM signals of 25%, 45%, 75% and 90% duty cycle on timer 2 channel
